@@ -1,0 +1,72 @@
+/* styling the table */
+table {
+	width: 350px;
+	background: #050505;
+	border-radius: 0px;
+	text-align:center;
+	/*padding: 0px 20px 20px;
+	box-shadow: 5px 5px #333334;*/
+
+}
+
+/* styling the heading part of the html code */
+.heading {
+	color: white;
+	font-size: 220%;
+	text-align: center;
+	font-family: 'Ma Shan Zheng', cursive;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+/* styling the textboxes part of the html code using id attribute of the textboxes*/
+
+#input, #answer {
+	
+	font-size: 170%;
+	font-family: 'Ma Shan Zheng', cursive;
+	font-family: 'Rajdhani', sans-serif;
+	border: none;
+	text-align: right;
+	background: #F1F2F0;
+
+}
+/* styling the input textboxe part of the html code using id attribute of the inpput box */
+#input{
+	width: 350px;
+	height: 50px;
+	/*border-radius: 5px 5px 0px 0px; */
+	box-shadow: 2px 2px 2px black;
+}
+
+/* styling the answer textbox part of the html code using id attribute of the inpput box */
+#answer{
+	width: 350px;
+	height: 90px;
+	/*border-radius: 0px 0px 5px 5px; */
+	box-shadow: 2px 2px 2px black;
+}
+
+
+/* styling the buttons of the html code */
+input[type=button] {
+
+
+	height:  60px;
+	width: 84.4px;
+	color: white;
+	background: #333334;
+	margin-bottom:3px;
+	/*border-radius: 5px;*/
+	border: 1px;
+	font-family: "Century Gothic", serif;
+	font-size: 20px;
+
+
+}
+
+
+/* styling the buttons of the html code on hover */
+input[type=button]:hover {
+	background: #ADACAC;
+	box-shadow: 2px 5px 15px rgba(246, 254, 6, .6);
+}
